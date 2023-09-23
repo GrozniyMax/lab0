@@ -17,13 +17,13 @@ public class Main{
             for (int j=0;j<19;j++){
                 int a = c[i];
                 if (c[i]==14){
-                    double result = Math.atan((double) 1 / Math.exp(Math.acos(Math.cos(x[j]))));
+                    //double result = Math.atan((double) 1 / Math.exp(Math.acos(Math.cos(x[j]))));
                     square[i][j]= Math.atan((double) 1 / Math.exp(Math.acos(Math.cos(x[j]))));
                 } else if ((c[i]==6)||(c[i]==8)||(c[i]==12)||(c[i]==18)||(c[i]==24)) {
-                    double result = Math.cos(((double) 2/3) * (((double) 2/3) + Math.sin(x[j])));
+                    //double result = Math.cos(((double) 2/3) * (((double) 2/3) + Math.sin(x[j])));
                     square[i][j] =  Math.cos(((double) 2/3) * (((double) 2/3) + Math.sin(x[j])));
                 }else {
-                    double result = Math.atan( 1.0 / Math.exp(Math.pow(Math.abs((Math.cos(x[j])-3)/0.25) /3,2)));
+                    //double result = Math.atan( 1.0 / Math.exp(Math.pow(Math.abs((Math.cos(x[j])-3)/0.25) /3,2)));
                     square[i][j] = Math.atan( 1.0 / Math.exp(Math.pow(Math.abs((Math.cos(x[j])-3)/0.25) /3,2)));
                 }
             }
